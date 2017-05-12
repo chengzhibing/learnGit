@@ -1,3 +1,3 @@
-to learn git a is a intresting thins;
-Git is a  version co dadsadsantrol system sdsadas.
-Git is a free software asasasqaasdsad. 
+to learn git a is a intrdsadasdadssadaesting thins;
+Git is a  version co dadsadsasadasdntrol system sdsadas.
+Git is a free sofsdasdasdsadtware asasasqaasdsad. 
