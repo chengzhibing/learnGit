@@ -32,7 +32,7 @@ git 学习步骤
        第一步：用命令git add告诉Git，把文件添加到仓库：实际上就是把文件修改添加到暂存区；
                $ git add readme.txt
                *执行上面的命令，没有任何显示，这就对了
-       第二步：用命令git commit告诉Git，把文件提交到仓库：实际上就是把暂存区的所有内容提交               到当前分支
+       第二步：用命令git commit告诉Git，把文件提交到仓库：实际上就是把暂存区的所有内容提交                 到当前分支
                $ git commit -m "wrote a readme file"
                  [master (root-commit) cb926e7] wrote a readme file
  		 1 file changed, 2 insertions(+)
@@ -92,3 +92,4 @@ git 学习步骤
    2）版本库（Repository）
 
       工作区有一个隐藏目录.git，这个不算工作区，而是Git的版本库。
+   3）一旦提交后，如果你又没有对工作区做任何修改，那么工作区就是“干净”的：
