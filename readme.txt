@@ -29,10 +29,10 @@ git 学习步骤
     1）现在我们编写一个readme.txt文件,内容随便输入
        *一定要放到learngit目录下（子目录也行），因为这是一个Git仓库，放到其他地方Git再厉害        也找不到这个文件
     2）把一个文件放到Git仓库只需要两步。
-       第一步：用命令git add告诉Git，把文件添加到仓库：
+       第一步：用命令git add告诉Git，把文件添加到仓库：实际上就是把文件修改添加到暂存区；
                $ git add readme.txt
                *执行上面的命令，没有任何显示，这就对了
-       第二步：用命令git commit告诉Git，把文件提交到仓库：
+       第二步：用命令git commit告诉Git，把文件提交到仓库：实际上就是把暂存区的所有内容提交               到当前分支
                $ git commit -m "wrote a readme file"
                  [master (root-commit) cb926e7] wrote a readme file
  		 1 file changed, 2 insertions(+)
@@ -85,4 +85,10 @@ git 学习步骤
 	ea34578 HEAD@{2}: commit: add distributed
 	cb926e7 HEAD@{3}: commit (initial): wrote a readme file
       （可以查看到你想进入的版本号）
-   
+   3)$ cat readme.txt 查看文件内容
+8、1）工作区（Working Directory）
+
+      就是你在电脑里能看到的目录，比如我的learngit文件夹就是一个工作区：
+   2）版本库（Repository）
+
+      工作区有一个隐藏目录.git，这个不算工作区，而是Git的版本库。
