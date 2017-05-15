@@ -141,4 +141,11 @@
       如果你不想让别人看到Git库，有两个办法，一个是交点保护费，让GitHub把公开的仓库变成私有      的，这样别人就看不见了（不可读更不可写）。另一个办法是自己动手，搭一个Git服务器，因为      是你自己的Git服务器，所以别人也是看不见的。这个方法我们后面会讲到的，相当简单，公司内      部开发必备。
 
       确保你拥有一个GitHub账号后，我们就即将开始远程仓库的学习。
-  
+  13、你已经在本地创建了一个Git仓库后，又想在GitHub创建一个Git仓库，并且让这两个仓库进行远      程同步，这样，GitHub上的仓库既可以作为备份，又可以让其他人通过该仓库来协作，真是一举        多得
+    1）首先，登陆GitHub，然后，在右上角找到“Create a new repo”按钮，创建一个新的仓库：
+    2）在Repository name填入learngit，其他保持默认设置，点击“Create repository”按钮，就成       功地创建了一个新的Git仓库：
+    3）目前，在GitHub上的这个learngit仓库还是空的，GitHub告诉我们，可以从这个仓库克隆出新的       仓库，也可以把一个已有的本地仓库与之关联，然后，把本地仓库的内容推送到GitHub仓库。
+
+       现在，我们根据GitHub的提示，在本地的learngit仓库下运行命令：
+
+       $ git remote add origin git@github.com:michaelliao/learngit.git
