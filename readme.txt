@@ -149,3 +149,22 @@
        现在，我们根据GitHub的提示，在本地的learngit仓库下运行命令：
 
        $ git remote add origin git@github.com:michaelliao/learngit.git
+    *要关联一个远程库，使用命令git remote add origin git@server-name:path/repo-name.git；
+
+     关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
+
+     此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
+
+   *****你需要修改远程地址，
+     可以键入：git remote set-url origin xxxx，来修改远程地址，
+     你也可以先删除origin然后再添加：
+          git remote rm origin
+          git remote add origin https://github.com/coder-pig/SimpleTea.git
+    还可以直接修改.git文件夹里的config文件，直接替换
+          url=""
+
+    另外，这个origin不是什么固定的东西，这个只是我们后面那个仓库地址的一个别名！！！
+   你可以写成其他的东西，比如我的项目既托管在Github又托管在Git@OSC，我可这样设置：
+      git remote add github https://github.com/coder-pig/SimpleTea.git
+      git remote add osc git@git.oschina.net:coder-pig/SimpleTea.git
+   这一点要弄清楚！！！
