@@ -1,0 +1,72 @@
+1、(总结移动端页面开发时需要注意的一些问题) 
+   http://www.mamicode.com/info-detail-1187764.html
+2、Node初学者入门，一本全面的NodeJS教程
+   http://ourjs.com/detail/529ca5950cb6498814000005
+3、gulp详细入门教程
+   http://www.ydcss.com/archives/18#lesson1
+4、Sublime Text 3常用插件安装（持续更新）
+   http://www.cnblogs.com/coderls/p/5894697.html
+5、vue笔记
+   http://www.cnblogs.com/libin-1/p/6196131.html
+6、Vue.js 快速入门
+   http://www.cnblogs.com/zhengjialux/p/5871980.html
+7、博客园持续更新新技术
+   http://www.cnblogs.com/zhengjialux/
+8、Highcharts 中文API 中文手册
+   http://www.open-open.com/lib/view/open1452913315667.html
+9、HTML5知识库
+   http://lib.csdn.net/base/html5
+10、25个很酷CSS3效果欣赏
+   http://www.shejidaren.com/25-css3-effects.html
+11、带提示功能留言表单验证代码
+   http://www.niuqiqi.com/html/down-from/2016/07/2081.html
+12、Boostrap实现的登录界面
+   http://blog.csdn.net/sinat_20418545/article/details/51453138
+13、bootstrap学习总结
+   http://www.cnblogs.com/jtjds/p/5547261.html
+14、如何学习Javascript
+   http://kb.cnblogs.com/page/191787/
+15、Vuejs第八篇之Vuejs组件的定义实例解析
+   http://www.jb51.net/article/91971.htm
+16、JavaScript设计模式--状态模式
+   http://blog.csdn.net/ligang2585116/article/details/50365390
+17、使用Flexible实现手淘H5页面的终端适配
+   http://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html
+18、JavaScript 全栈工程师培训教程
+   http://www.ruanyifeng.com/blog/2016/11/javascript.html
+19、jquery ajax实例教程和一些高级用法
+   http://www.cnblogs.com/my-effort/p/6307303.html
+20、 jQuery源码分析系列——来自Aaron
+   http://blog.csdn.net/SUFEIDEYEYE/article/details/51810912
+21、中国国内可用API合集
+   https://microzz.com/2017/02/03/API/
+22、javascript学习思维导图
+   https://buluo.qq.com/p/detail.html?bid=314687&pid=3951568-1487919604
+23、浅析响应式布局设计
+   http://www.toutiao.com/i6392834864638329345/
+24、十大响应式Web设计框架
+   http://www.searchsoa.com.cn/showcontent_82254.htm
+25、Cesium入门教程翻译
+   https://my.oschina.net/luosongMZ/blog/202441
+26、WEB前端知识总结
+   https://zhuanlan.zhihu.com/p/25334672
+27、HTML中meta的使用
+   http://www.nowamagic.net/html/html_Meta.php
+28、Cesium简介
+   https://blog.gmem.cc/cesium-study-note
+29、JavaScript如何实现跨域请求
+   http://www.jb51.net/article/89900.htm
+30、Vue2.0 新手入门 — 从环境搭建到发布
+   http://www.runoob.com/w3cnote/vue2-start-coding.html
+31、13个可实现超棒数据可视化效果的Javascript框架
+   http://www.36dsj.com/archives/19522
+32、使用gulp 进行ES6开发
+   https://segmentfault.com/a/1190000004394726?utm_source=tuicool&utm_medium=referral
+33、Angular2
+   http://www.hubwiz.com/class/5599d367a164dd0d75929c76
+34、腾讯课堂
+   https://ke.qq.com/user/index/index.html#cid=20945&tid=100003219&fr=2&term_id=100003219
+35、git详细介绍
+   http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+36、jquery原型技术分解
+  http://blog.csdn.net/pigpigpig4587/article/details/23931459
