@@ -141,7 +141,7 @@
       如果你不想让别人看到Git库，有两个办法，一个是交点保护费，让GitHub把公开的仓库变成私有      的，这样别人就看不见了（不可读更不可写）。另一个办法是自己动手，搭一个Git服务器，因为      是你自己的Git服务器，所以别人也是看不见的。这个方法我们后面会讲到的，相当简单，公司内      部开发必备。
 
       确保你拥有一个GitHub账号后，我们就即将开始远程仓库的学习。
-  13、你已经在本地创建了一个Git仓库后，又想在GitHub创建一个Git仓库，并且让这两个仓库进行远      程同步，这样，GitHub上的仓库既可以作为备份，又可以让其他人通过该仓库来协作，真是一举        多得
+  13、你已经在本地创建了一个Git仓库后，又想在GitHub创建一个Git仓库，并且让这两个仓库进行远      程同步，这样，GitHub上的仓库既可以作为备份，又可以让其他人通过该仓库来协作，真是一举多得
     1）首先，登陆GitHub，然后，在右上角找到“Create a new repo”按钮，创建一个新的仓库：
     2）在Repository name填入learngit，其他保持默认设置，点击“Create repository”按钮，就成       功地创建了一个新的Git仓库：
     3）目前，在GitHub上的这个learngit仓库还是空的，GitHub告诉我们，可以从这个仓库克隆出新的       仓库，也可以把一个已有的本地仓库与之关联，然后，把本地仓库的内容推送到GitHub仓库。
@@ -150,8 +150,9 @@
 
        $ git remote add origin git@github.com:michaelliao/learngit.git
     *要关联一个远程库，使用命令git remote add origin git@server-name:path/repo-name.git；
-
-     关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
+    关联失败，弹出pull的时候，pull orgin master 
+    如果弹出关联失败，应该输入
+     关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
 
      此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
 
